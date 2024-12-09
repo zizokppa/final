@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            font-family: 'Courier New', Courier, monospace; /* 打字机字体 */
+            display: flex;
+            flex-direction: row; /* 左右布局 */
+            min-height: 100vh;
+        }
+
+        h1, h2, p {
+    font-weight: normal; /* 统一设置字体粗细 */
+    margin: 20px 0;
+}
+        .photo-section {
+            flex: 1; /* 左侧占据一半空间 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            cursor: pointer; /* 点击提示 */
+        }
+
+        .photo {
+            width: 90%; /* 图片宽度 */
+            height: 90%;
+            filter: grayscale(100%); /* 黑白滤镜 */
+            transition: filter 0.3s ease, transform 0.3s ease;
+        }
+
+       
+
+        .text-section {
+            flex: 1; /* 右侧占据一半空间 */
+            padding: 40px;
+            overflow-y: auto; /* 如果内容多，可以滚动 */
+        }
+
+        .text-section h1, .text-section h2, .text-section p {
+            margin: 20px 0;
+        }
+
+        .back-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+            background-color: transparent;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+            z-index: 100; /* 确保按钮在其他内容上方 */
+        }
+
+        .back-button:hover {
+            transform: scale(1.1); /* 悬停时放大 */
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- 左侧图片 -->
+    <div class="photo-section" id="photoSection">
+        <img class="photo" id="photo" src="photo/IMG_9449.JPG" alt="Current Storyboard">
+    </div>
+
+    <!-- 右侧文字 -->
+    <div class="text-section">
+        <h2>Introduction for the Video</h2>
+     <p>
+
+        In the year 2024, a young woman receives a mysterious camcorder from the future. As she powers it on, she is shocked to see a recording of her own murder, a chilling scene from 2035. The only clue she has is the voice from the recording, urging her to make a phone call—a call that connects her to the killer’s number.
+        
+        What begins as a desperate attempt to uncover the truth spirals into a haunting realization: the voice, the killer, and the victim are all the same person. The girl finds herself entangled in a loop where time becomes a circle, and the boundaries between her past, present, and future dissolve.
+        
+        As she confronts the inevitable, she begins to understand the inescapable truth of her existence: she has always been her own observer, her own savior, and her own demise.</p>
+        <h2>Storyboard</h2>
+        <p>
+            For my project， I am focusing on the paradox that in my film time is not a linear existence,
+            how does future, present, and past exist. The central theme of the film revolves around the
+            paradox that time is not a linear existence. The film explores how the future, present, and past
+            coexist simultaneously and how this impacts the protagonist's understanding of her own
+            existence. Each part of the film addresses a different aspect of this paradox, leading to a final
+            realization of the protagonist’s dispersed existence.
+            I divided my outline into three parts. and planning each part 2-3 scenes  </p>
+        
+        </p>
+
+        <h2>Development</h2>
+        <p>
+           During the editing process, I decided to continue the 'still image series' from 'City as System' Project. Not only an extend of the project but also I think it removed a lot of unwanted distractions and some shaky camera movements in the video. 
+           And it gradually turned into this final story version rather than the very initial idea.
+        </p>
+        <h2>Schedule</h2>
+        <p>
+            Planning: Nov.7-Nov.18<br>
+            Shooting: Oct Nov.19 - Nov.24<br>
+            Sound/Editing: Nov.24 - Dec.3rd<br>
+            Documentation: Dec.4th-Dec.8th
+        </p>
+        <h2>Location</h2>
+        <p>
+           East Broadway Station<br>
+           W 4th St Station<br>
+           Apartment in Brooklyn
+        </p>
+        <h2>Credits</h2>
+        <p>
+            Cast<br>
+            Shuyan Liu<br>
+            Art Director<br>
+            Shuyan Liu<br>
+        
+         </p>
+         
+        
+    </div>
+
+
+    <a href="homepage.html" class="back-button">Back</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,88 @@
+{
+    "pages": {
+      "index": {
+        "title": "Emerging Futures",
+        "images": ["photo/P1012191.JPG", "photo/P1012190.JPG"],
+        "redirect": "homepage.html"
+      },
+      "documentation": {
+        "title": "Documentation",
+        "images": [
+          "photo/IMG_9449.JPG",
+          "photo/IMG_9445.JPG",
+          "photo/IMG_9446.JPG",
+          "photo/IMG_9447.JPG",
+          "photo/IMG_9448.JPG"
+        ],
+        "sections": [
+          {
+            "title": "Introduction for the Video",
+            "content": [
+              "In the year 2024, a young woman receives a mysterious camcorder from the future.",
+              "As she powers it on, she is shocked to see a recording of her own murder, a chilling scene from 2035.",
+              "The only clue she has is the voice from the recording, urging her to make a phone call—a call that connects her to the killer’s number."
+            ]
+          },
+          {
+            "title": "Storyboard",
+            "content": [
+              "For my project, I am focusing on the paradox that in my film time is not a linear existence.",
+              "How does future, present, and past exist?",
+              "The film explores how the future, present, and past coexist simultaneously."
+            ]
+          },
+          {
+            "title": "Development",
+            "content": [
+              "During the editing process, I decided to continue the 'still image series' from 'City as System' Project.",
+              "It gradually turned into this final story version rather than the very initial idea."
+            ]
+          },
+          {
+            "title": "Schedule",
+            "content": [
+              "Planning: Nov.7-Nov.18",
+              "Shooting: Nov.19 - Nov.24",
+              "Sound/Editing: Nov.24 - Dec.3rd",
+              "Documentation: Dec.4th-Dec.8th"
+            ]
+          },
+          {
+            "title": "Location",
+            "content": [
+              "East Broadway Station",
+              "W 4th St Station",
+              "Apartment in Brooklyn"
+            ]
+          },
+          {
+            "title": "Credits",
+            "content": [
+              "Cast: Shuyan Liu",
+              "Art Director: Shuyan Liu"
+            ]
+          }
+        ]
+      },
+      "finalVideo": {
+        "title": "Final Video",
+        "videoUrl": "https://player.vimeo.com/video/1036249871"
+      },
+      "homepage": {
+        "title": "Homepage",
+        "links": [
+          { "name": "Concept", "href": "concept.html" },
+          { "name": "Documentation", "href": "docu.html" },
+          { "name": "Video", "href": "finalvideo.html" }
+        ]
+      },
+      "concept": {
+        "title": "Concept",
+        "poemSections": [
+          ["If time is no longer linear", "but a circle,", "does the future eventually", "become the past?"],
+          ["This was how I started developing ideas", "from the City as System project:", "Turning 8 seconds", "into a 3-minute crime scene."]
+        ]
+      }
+    }
+  }
+  

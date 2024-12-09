@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>concept</title>
+    
+    <style>
+    
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow-x: hidden; 
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+            background: black;
+        }
+
+    
+        #background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; 
+            background-size: contain; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            opacity: 1;
+            transition: opacity 1.5s ease-in-out; 
+        }
+
+    
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100vh; 
+            padding: 20px;
+            box-sizing: border-box; 
+        }
+
+      
+        .poem p {
+            margin: 10px 0; 
+            font-size: 24px;
+            line-height: 1.6;
+            white-space: pre-wrap; 
+        }
+
+      
+        .back-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+            background-color: transparent;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+            z-index: 10; 
+        }
+
+        .back-button:hover {
+            transform: scale(1.1); 
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="background"></div>
+
+   
+    <a href="homepage.html" class="back-button" aria-label="Back to Homepage">Back</a>
+
+   
+    <div class="content">
+        <div class="poem">
+            <p>If time is no longer linear</p>
+            <p>but a circle,</p>
+            <p>does the future eventually</p>
+            <p>become the past?</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="poem">
+            <p>This was how I started developing ideas</p>
+            <p>from the City as System project:</p>
+            <p>Turning 8 seconds</p>
+            <p>into a 3-minute crime scene.</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="poem">
+            <p>I am deeply fascinated</p>
+            <p>by abstract expression</p>
+            <p>and often question our understanding</p>
+            <p>of time as a 4-dimensional measurement.</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="poem">
+            <p>We live within measurable boundaries,</p>
+            <p>yet I am intrigued by the possibility</p>
+            <p>of stepping beyond this framework</p>
+            <p>to explore time from a 5-dimensional perspective.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+photo/P1012159.JPG

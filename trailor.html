@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City as System - Project Description</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            font-family: 'Courier New', Courier, monospace; /* 打字机字体 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* 使页面满屏高度 */
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        iframe {
+            width: 80%; /* 控制视频框的宽度 */
+            max-width: 800px;
+            height: 450px;
+            border: none; /* 移除边框 */
+            margin-top: 20px;
+        }
+
+        .back-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+            background-color: transparent;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+            z-index: 100; /* 确保按钮在其他内容上方 */
+        }
+
+        .back-button:hover {
+            transform: scale(1.1); /* 悬停时放大 */
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 返回按钮 -->
+    <a href="submenu.html" class="back-button">Back</a>
+
+    <div class="container">
+        <!-- 嵌入 Vimeo 视频 -->
+        <iframe src="https://drive.google.com/file/d/1pftB8rLZEoOxr1mvVd4Of_jGCXRNhdtA/preview" 
+        width="640" 
+        height="480" 
+        allow="autoplay"></iframe>
+    </script>
+
+</body>
+</html>
