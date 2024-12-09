@@ -10,38 +10,38 @@
             padding: 0;
             background-color: black;
             color: white;
-            font-family: 'Courier New', Courier, monospace; /* 打字机字体 */
+            font-family: 'Courier New', Courier, monospace; 
             display: flex;
-            flex-direction: row; /* 左右布局 */
+            flex-direction: row; 
             min-height: 100vh;
         }
 
         h1, h2, p {
-    font-weight: normal; /* 统一设置字体粗细 */
+    font-weight: normal; 
     margin: 20px 0;
 }
         .photo-section {
-            flex: 1; /* 左侧占据一半空间 */
+            flex: 1; 
             display: flex;
             justify-content: center;
             align-items: center;
             background-color: black;
-            cursor: pointer; /* 点击提示 */
+            cursor: pointer; 
         }
 
         .photo {
-            width: 90%; /* 图片宽度 */
+            width: 90%;
             height: 90%;
-            filter: grayscale(100%); /* 黑白滤镜 */
+            filter: grayscale(100%); 
             transition: filter 0.3s ease, transform 0.3s ease;
         }
 
        
 
         .text-section {
-            flex: 1; /* 右侧占据一半空间 */
+            flex: 1; 
             padding: 40px;
-            overflow-y: auto; /* 如果内容多，可以滚动 */
+            overflow-y: auto; 
         }
 
         .text-section h1, .text-section h2, .text-section p {
@@ -60,23 +60,24 @@
             cursor: pointer;
             text-decoration: none;
             font-size: 16px;
-            z-index: 100; /* 确保按钮在其他内容上方 */
+            z-index: 100; 
         }
 
         .back-button:hover {
-            transform: scale(1.1); /* 悬停时放大 */
+            transform: scale(1.1); 
             transition: 0.3s;
         }
     </style>
 </head>
 <body>
     
-    <!-- 左侧图片 -->
+   //photo on the left side
+
     <div class="photo-section" id="photoSection">
         <img class="photo" id="photo" src="photo/IMG_9449.JPG" alt="Current Storyboard">
     </div>
 
-    <!-- 右侧文字 -->
+   //text, right side
     <div class="text-section">
         <h2>Introduction for the Video</h2>
      <p>
