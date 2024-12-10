@@ -1,4 +1,3 @@
-/* 全局样式 */
 body, html {
     margin: 0;
     padding: 0;
@@ -9,7 +8,7 @@ body, html {
     overflow: hidden;
 }
 
-/* 背景图片样式 */
+
 body {
     background-size: cover;
     background-position: center;
@@ -17,7 +16,7 @@ body {
     transition: background-image 0.5s ease-in-out;
 }
 
-/* 黑色遮罩 */
+
 .dark-overlay {
     position: absolute;
     top: 0;
@@ -28,7 +27,7 @@ body {
     z-index: 0;
 }
 
-/* 首页标题样式 */
+
 .name, .title {
     position: absolute;
     z-index: 1;
@@ -48,7 +47,7 @@ body {
     font-size: 120px;
 }
 
-/* 渐隐效果 */
+
 .fade-out {
     animation: fadeOut 1s forwards;
 }
@@ -62,7 +61,7 @@ body {
     }
 }
 
-/* Homepage 垂直文本导航样式 */
+
 .vertical-text {
     display: flex;
     flex-direction: column;
@@ -85,25 +84,25 @@ body {
     transform: scale(1.1);
 }
 
-/* 视频页面样式 */
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full viewport height */
-    width: 100vw; /* Full viewport width */
+    height: 100vh; 
+    width: 100vw; 
     position: relative;
 }
 
 iframe {
-    width: 80%; /* Set video width to 80% of the container */
-    height: 45%; /* Maintain 16:9 aspect ratio */
+    width: 80%; 
+    height: 45%; 
     border: none;
-    max-width: 960px; /* Optional max width */
-    max-height: 540px; /* Optional max height */
+    max-width: 960px; 
+    max-height: 540px; 
 }
 
-/* 返回按钮样式 */
+
 .back-button {
     position: fixed;
     top: 20px;
@@ -123,7 +122,7 @@ iframe {
     transform: scale(1.1);
 }
 
-/* 文档页面样式 */
+
 .photo-section {
     flex: 1;
     display: flex;
@@ -134,10 +133,10 @@ iframe {
 }
 
 .photo {
-    max-width: 80%; /* 限制图片最大宽度 */
-    max-height: 80%; /* 限制图片最大高度 */
-    width: auto; /* 保持宽高比 */
-    height: auto; /* 保持宽高比 */
+    max-width: 80%; 
+    max-height: 80%;
+    width: auto; 
+    height: auto; 
     filter: grayscale(100%);
     transition: filter 0.3s ease, transform 0.3s ease;
 }
@@ -160,17 +159,17 @@ iframe {
 .concept-section {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Align content to the top */
+    justify-content: flex-start; 
     align-items: center;
     height: 100vh;
-    overflow-y: auto; /* Scroll vertically */
+    overflow-y: auto; 
     padding: 20px;
     box-sizing: border-box;
-    scroll-behavior: smooth; /* Smooth scrolling */
-    gap: 40px; /* Space between sections */
+    scroll-behavior: smooth; 
+    gap: 40px; 
 }
 
-/* Poem Style */
+
 .poem {
     display: flex;
     flex-direction: column;
@@ -180,25 +179,25 @@ iframe {
 }
 
 .poem p {
-    margin: 20px 0; /* Space between lines */
-    font-size: 20px; /* Font size */
-    line-height: 1.6; /* Line height */
-    white-space: pre-wrap; /* Preserve line breaks */
-    width: 80%; /* Limit text width */
-    max-width: 800px; /* Maximum width */
-    text-align: center; /* Center align text */
-    word-wrap: break-word; /* Word wrapping */
+    margin: 20px 0; 
+    font-size: 20px; 
+    line-height: 1.6; 
+    white-space: pre-wrap; 
+    width: 80%; 
+    max-width: 800px; 
+    text-align: center; 
+    word-wrap: break-word; 
     color: white;
 }
 
 .docu-container {
     display: flex;
-    flex-direction: row; /* Left-right layout */
+    flex-direction: row; 
     height: 100vh;
 }
 
 .photo-section {
-    flex: 1; /* Left-side image area */
+    flex: 1; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,12 +213,12 @@ iframe {
 }
 
 .text-section {
-    flex: 1; /* Right-side text area */
+    flex: 1; 
     padding: 20px;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Space between text blocks */
+    gap: 20px; 
 }
 
 .text-section h2 {
@@ -236,13 +235,13 @@ iframe {
 
 .docu-container {
     display: flex;
-    flex-direction: row; /* Left-right layout */
+    flex-direction: row; 
     height: 100vh;
 }
 
-/* Left Section: Image Area */
+
 .photo-section {
-    flex: 1; /* Occupy half of the screen */
+    flex: 1; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -257,14 +256,14 @@ iframe {
     transition: filter 0.3s ease, transform 0.3s ease;
 }
 
-/* Right Section: Text Area */
+
 .text-section {
     flex: 1;
     padding: 20px;
-    overflow-y: auto; /* Allow scrolling if content overflows */
+    overflow-y: auto; 
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Space between sections */
+    gap: 20px; 
 }
 
 .text-section h2 {
